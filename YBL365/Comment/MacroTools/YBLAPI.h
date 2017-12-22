@@ -21,14 +21,14 @@ static NSString * const BASE_URL_Login              = @"https://water.memoryshee
 #warning 域名 1
 //#define js_base_url @"https://water.iamyuhang.com"
 #warning 域名 2
-//#define js_base_url @"https://water.memorysheep.com"
+#define js_base_url @"https://water.memorysheep.com"
 
-#define BaseURL_Release3001         [BASE_URL stringByAppendingString:@":3001/api/v1"]
-#define BaseURL_Release81           [BASE_URL stringByAppendingString:@"/api/v1/"]
-#define BASE_URL                     [BASE_URL stringByAppendingString:@"/api/v1/"]
-#define BaseURL_ReleaseAdmin         [BASE_URL stringByAppendingString:@"/api/admin/v1/"]
-#define BaseURL_Login_Release        [BASE_URL stringByAppendingString:@"/"]
-#define BASE_URL_Login                [BASE_URL stringByAppendingString:@"/"]
+#define BaseURL_Release3001         [js_base_url stringByAppendingString:@":3001/api/v1"]
+#define BaseURL_Release81           [js_base_url stringByAppendingString:@"/api/v1/"]
+#define BASE_URL                     [js_base_url stringByAppendingString:@"/api/v1/"]
+#define BaseURL_ReleaseAdmin         [js_base_url stringByAppendingString:@"/api/admin/v1/"]
+#define BaseURL_Login_Release        [js_base_url stringByAppendingString:@"/"]
+#define BASE_URL_Login                [js_base_url stringByAppendingString:@"/"]
 
 //static NSString * const BaseURL_Release3001         = @"https:///";
 //static NSString * const BaseURL_Release81           = @"https://water.memorysheep.com";

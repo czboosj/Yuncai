@@ -7901,7 +7901,7 @@
 				TargetAttributes = {
 					54454D1E1E04D589006CCBE7 = {
 						CreatedOnToolsVersion = 8.1;
-						DevelopmentTeam = 56L6Z86U93;
+						DevelopmentTeam = VZA4V5RJLK;
 						LastSwiftMigration = 0810;
 						ProvisioningStyle = Manual;
 						SystemCapabilities = {
@@ -7909,7 +7909,7 @@
 								enabled = 1;
 							};
 							com.apple.Push = {
-								enabled = 1;
+								enabled = 0;
 							};
 							com.apple.SafariKeychain = {
 								enabled = 1;
@@ -8865,11 +8865,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_CXX_LIBRARY = "libc++";
-				CODE_SIGN_ENTITLEMENTS = YC168.entitlements;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Tongxin Qiao (WRP9P4R649)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Tongxin Qiao (WRP9P4R649)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEFINES_MODULE = NO;
-				DEVELOPMENT_TEAM = 56L6Z86U93;
+				DEVELOPMENT_TEAM = VZA4V5RJLK;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -8894,8 +8893,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.danshui.yuncai;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "a9ab8a61-8559-4d55-af7a-020f7dca3105";
-				PROVISIONING_PROFILE_SPECIFIER = Yuncai_Development;
+				PROVISIONING_PROFILE = "e8718657-9753-4ed3-abc1-1049437162ef";
+				PROVISIONING_PROFILE_SPECIFIER = "Xcode iOS Wildcard App ID *";
 				SWIFT_VERSION = 2.3;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/**";
@@ -8912,12 +8911,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_CXX_LIBRARY = "libc++";
-				CODE_SIGN_ENTITLEMENTS = YC168.entitlements;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Henan freshwater information technology co., LTD (56L6Z86U93)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Henan freshwater information technology co., LTD (56L6Z86U93)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = NO;
-				DEVELOPMENT_TEAM = 56L6Z86U93;
+				DEVELOPMENT_TEAM = VZA4V5RJLK;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -8942,8 +8940,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.danshui.yuncai;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "cfe29cee-3356-4ea4-9c7d-0de73c7786bb";
-				PROVISIONING_PROFILE_SPECIFIER = Yuncai_Distribution;
+				PROVISIONING_PROFILE = "e8718657-9753-4ed3-abc1-1049437162ef";
+				PROVISIONING_PROFILE_SPECIFIER = "Xcode iOS Wildcard App ID *";
 				SWIFT_VERSION = 2.3;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/**";

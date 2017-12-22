@@ -172,6 +172,10 @@
     pswTextField.clearButtonMode = UITextFieldViewModeWhileEditing;
     [pswView addSubview:pswTextField];
     
+    
+    accountTextField.text = @"18638666666";
+    pswTextField.text = @"123456";
+    
     UIView *pswLineView = [[UIView alloc] initWithFrame:CGRectMake(pswLabel.left, pswTextField.bottom, YBLWindowWidth-4*space, 0.5)];
     pswLineView.backgroundColor = YBLLineColor;
     [pswView addSubview:pswLineView];
